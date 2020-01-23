@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ana Fariñas">
+    <title>Mi Portafolio - Ana Fariñas</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap 4.4.1-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- estilo css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-graypurple fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="logo-anafarinas"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="#sobre-mi">Sobre mí<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#experiencia">Experiencia</a>
+            <a class="nav-item nav-link" href="#trabajos">Trabajos</a>
+            <a class="nav-item nav-link" href="#contacto">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /Navbar -->
+
+    <!-- header -->
+    <header class="hero">
+      <div class="container-fluid text-center">
+        <h1 class="py-5 titulo">HOLA, YO SOY<br><span class="negrita">ANA FARIÑAS</span></h1>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <!-- Un poco de mi -->
+    <section id="sobre-mi" class="container-fluid bg-graypurple py-5 texto-blanco d-none d-md-block">
+      <h2 class="text-center pb-2">Un poco de mí</h2>
+      <div class="separador"></div>
+      <div class="container mt-5">
+        <div class="row row-cols-md-2">
+          <p class="col">Soy Diseñadora Gráfica, egresada del Instituto de Diseño de Caracas, en Venezuela. Tengo 5 años de experiencia en el área del diseño. Actualmente vivo en Santiago de Chile, donde me desempeño como diseñadora UI para Movistar.</p>
+          <p class="col">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo.</p>
+        </div>
+      </div>
+    </section >
+    <!-- /Un poco de mi -->
+
+    <!-- Mi experiencia -->
+    <section id="experiencia" class="container-fluid bg-graypurple py-5 text-center texto-blanco">
+      <h2 class="pb-2">Mi experiencia</h2>
+      <div class="separador"></div>
+      <div class="container mt-5">
+        <div class="row row-cols-md-3">
+          <div class="col">
+            <img src="assets/img/idc.png" alt="idc" class="mb-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Instituto de Diseño de Caracas">
+            <h5>2012 - 2015</h5>
+          </div>
+          <div class="col">
+            <img src="assets/img/epk.png" alt="epk" class="mb-3 data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="EPK - Grupo los principitos"">
+            <h5>2015 - 2017</h5>
+          </div>
+          <div class="col">
+            <img src="assets/img/fusiona.png" alt="fusiona" class="mb-3 data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Fusiona - Digital Content"">
+            <h5>2017 - 2020</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Mi experiencia -->
+
+    <!-- mis Trabajos -->
+    <section id="trabajos" class="container py-5">
+      <h2 class="pb-2 texto-graypurple  text-center">Mis trabajos</h2>
+      <div class="separador-graypurple"></div>
+
+      <div class="row row-cols-1 row-cols-md-3 mt-5 texto-gris">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="assets/img/1.png" class="card-img-top" alt="trabajo1">
+            <div class="card-body">
+              <h5 class="card-title">Gundtech</h5>
+              <p class="card-text">Sitio web para Gundtech, empresa experta en tecnología aplicada a los sistemas de aire acondicionado.</p>
+              <a href="#" class="texto-graypurple" data-toggle="modal" data-target="#gundtech">Ver más ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img src="assets/img/2.png" class="card-img-top" alt="trabajo2">
+            <div class="card-body">
+              <h5 class="card-title">Movistar Música</h5>
+              <p class="card-text">Landing page para el sitio web de Movistar.cl, en el que se promociona el lanzamiento de la App Movistar Música.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img src="assets/img/3.png" class="card-img-top" alt="trabajo3">
+            <div class="card-body">
+              <h5 class="card-title">Paper Garden</h5>
+              <p class="card-text">Tienda en linea para la marca Paper Garden, donde se ofrecen materiales de papelería y arte sustentables.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img src="assets/img/4.png" class="card-img-top" alt="trabajo4">
+            <div class="card-body">
+              <h5 class="card-title">Bi·Good</h5>
+              <p class="card-text">Indentidad de marca para Bi-Good, empresa española que  desarrollan políticas de compras sostenibles.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img src="assets/img/5.png" class="card-img-top" alt="trabajo5">
+            <div class="card-body">
+              <h5 class="card-title">Cyberday Movistar</h5>
+              <p class="card-text">Landing page para suscribirse al Cyberday de Movistar.cl.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img src="assets/img/6.png" class="card-img-top" alt="trabajo6">
+            <div class="card-body">
+              <h5 class="card-title">MOAI Tours</h5>
+              <p class="card-text">Diseño de sitio web para la marca MOAI, empresa de tours en distintos lugares de suramericana.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /mis Trabajos -->
+
+    <!-- Modal-1 -->
+  <div class="modal fade" id="gundtech" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Gundtech</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/img/1.png" class="img-fluid my-3" alt="Gundtech">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Modal-1 -->
+
+    <!-- contacto -->
+    <section id="contacto" class="container-fluid bg-lila py-5">
+      <h2 class="pb-2 texto-graypurple  text-center">Contacto</h2>
+      <div class="separador-graypurple"></div>
+      <div class="typeform-widget" data-url="https://anafarias664804.typeform.com/to/C7Aw7Q" style="width: 100%; height: 350px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=C7Aw7Q&utm_source=typeform.com-01DYQKPHVYMJ70Y8SXJDNANG1T-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+    </section>
+    <!-- /contacto -->
+
+    <footer class="container-fluid bg-graypurple py-5">
+      <div class="row row-cols-2">
+        <div class="col text-right">
+          <img src="assets/img/logo.png" alt="logo">
+        </div>
+        <div class="col">
+          <a href="https://www.instagram.com/anacristiff/"><i class="fab fa-instagram mr-2"></i></a>
+          <a href="https://www.facebook.com/ana.farinasfilippi"><i class="fab fa-facebook-square mr-2"></i></a>
+          <a href="https://www.linkedin.com/in/anafarinas/"><i class="fab fa-linkedin-in mr-2"></i></a>
+          <a href="https://www.behance.net/anafarinas"><i class="fab fa-behance-square"></i></a>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- jquery sin slim -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- popper -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- js -->
+    <script src="assets/js/script.js" charset="utf-8"></script>
+
+  </body>
+</html>

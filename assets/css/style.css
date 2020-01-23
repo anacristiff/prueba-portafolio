@@ -1,0 +1,60 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.hero {
+  background-image: url("../img/foto-banner.png");
+  background-repeat: no-repeat;
+  padding-top: 400px;
+  padding-bottom: 90px;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.negrita, h2, h5 {
+  font-weight: 700;
+}
+
+.bg-graypurple {
+  background-color: #C4B4BC;
+}
+
+.bg-lila {
+  background-color: #F4F2F3;
+}
+
+.texto-blanco {
+  color: #ffffff;
+}
+
+.texto-graypurple {
+  color: #C4B4BC;
+}
+
+.texto-gris {
+  color: #8E8E8E;
+}
+
+.separador {
+  border-bottom: solid 2px;
+  border-color: #ffffff;
+  margin:0 45% 0 45%;
+}
+
+.separador-graypurple {
+  border-bottom: solid 2px;
+  border-color: #C4B4BC;
+  margin:0 45% 0 45%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+footer i {
+  font-size: 2rem;
+}
